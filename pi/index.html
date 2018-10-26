@@ -1,0 +1,27 @@
+<!-- JEFFREY LAKEMAN @ 18-10-2018 -->
+<!-- HTML -->
+<!-- A simple webpage for displaying sensor data -->
+<!-- For use with the python tornado web framework -->
+
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="refresh" content="5">
+                <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+                <title>{{ title }}</title>
+        </head>
+        <body>
+                <!-- Table for displaying sensor data -->
+                <table>
+                        <tr>
+                                <th>Temp R1</th>
+                        </tr><tr>
+                                <th>{{ temp }}</th>
+                        </tr>
+                </table>
+                <style>
+                        th {border:2px solid black;}
+                </style>
+        </body>
+</html>

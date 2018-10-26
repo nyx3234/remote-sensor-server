@@ -1,0 +1,7 @@
+To connect the ESP8266 (Adafruit Huzzah ESP8266 Breakout) to the Si7021 (Temperature and Humidity sensor) using I2C, use the following connections:
+
+ESP8266		Si7021
+GND	-->	GND
+3V	-->	VIN
+GPIO #4 -->	SDA
+GPIO #5 -->	SCL
